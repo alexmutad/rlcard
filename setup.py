@@ -26,6 +26,8 @@ setuptools.setup(
     				'games/doudizhu/jsondata/*'
 	]},
     install_requires=[
+        'flake8',
+        'pytest',
         'tensorflow>=1.14,<2.0',
         'tensorflow_probability==0.7.0',
         'dm-sonnet==1.35',
